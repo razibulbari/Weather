@@ -55,6 +55,16 @@
             } else if (data.weather[0].main == "Snow") {
                 weatherIcon.src = "https://openweathermap.org/img/wn/13d.png";
             }
+
+            const weatherInfo = document.querySelector(".weather-info");
+            weatherInfo.style.display = "flex";
+            weatherInfo.style.flexDirection = "column";
+            weatherInfo.style.alignItems = "center";
+
+            const details = document.querySelector(".details");
+            details.style.display = "flex";
+            details.style.flexDirection = "row";
+            details.style.alignItems = "center";
         }
 
         searchButton.addEventListener("click", () => {
