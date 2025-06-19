@@ -57,6 +57,7 @@ background: linear-gradient(45deg, rgba(142, 197, 252, 1.000) 0.000%, rgba(141, 
 
 .weather-info {
     margin-top: 20px;
+    display: none;
 }
 
 .weather-info h2 {
@@ -80,6 +81,7 @@ background: linear-gradient(45deg, rgba(142, 197, 252, 1.000) 0.000%, rgba(141, 
     justify-content: space-between;
     margin-top: 20px;
     color: white;
+    display: none;
 }
 
 
